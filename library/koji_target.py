@@ -2,7 +2,7 @@
 from ansible.module_utils.basic import AnsibleModule
 from ansible.module_utils._text import to_native
 from ansible.errors import AnsibleError
-import common_koji
+from ansible.module_utils import common_koji
 
 
 ANSIBLE_METADATA = {

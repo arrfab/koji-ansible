@@ -3,7 +3,7 @@ from ansible.module_utils.basic import AnsibleModule
 from ansible.module_utils._text import to_native
 from ansible.errors import AnsibleError
 from collections import defaultdict
-import common_koji
+from ansible.module_utils import common_koji
 
 try:
     from __main__ import display
